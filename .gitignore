@@ -20,3 +20,6 @@ obj/
 *.opensdf
 *.VC.db
 *.VC.opendb
+
+old_test/
+text.txt
