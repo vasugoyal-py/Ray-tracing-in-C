@@ -1,0 +1,22 @@
+# Build outputs
+*.exe
+*.obj
+*.o
+*.out
+*.ilk
+*.pdb
+*.exp
+*.lib
+bin/
+build/
+obj/
+
+# IDE / editor
+.vscode/
+.vs/
+*.suo
+*.user
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb

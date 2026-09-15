@@ -1,0 +1,5 @@
+compile
+
+cd "C:\Users\HP\Desktop\Work related\Random C projects\1"
+
+gcc main.c helper.c -o main
