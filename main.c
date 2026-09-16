@@ -9,7 +9,7 @@
 #include "helper.h"
 #include "maps.h"
 
-#define SELECTED_MAP 1
+#define SELECTED_MAP 2
 
 int main(void)
 {
@@ -21,8 +21,8 @@ int main(void)
 
     const int (*map)[MAP_WIDTH] = SELECTED_MAP == 1 ? map_one : map_two;
 
-    double posX = SELECTED_MAP == 1 ? 1.5 : 2.5;
-    double posY = SELECTED_MAP == 1 ? 1.5 : 2.5;
+    double posX = SELECTED_MAP == 1 ? 1.5 : 16;
+    double posY = SELECTED_MAP == 1 ? 1.5 : 8;
     double dirX = 0.0, dirY = -1.0;
     double planeX = 0.66, planeY = 0.0;
 
