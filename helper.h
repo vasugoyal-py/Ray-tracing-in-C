@@ -3,10 +3,10 @@
 
 #include <stdbool.h>
 
-#define MAP_WIDTH 16
-#define MAP_HEIGHT 16
-#define SCREEN_WIDTH 80
-#define SCREEN_HEIGHT 24
+#define MAP_WIDTH 32
+#define MAP_HEIGHT 32
+#define SCREEN_WIDTH 120
+#define SCREEN_HEIGHT 100
 #define speed 0.15
 #define rotSpeed 0.10
 
